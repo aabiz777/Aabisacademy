@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AabisAcademy - Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f7fa;
+    }
+    header {
+      background-color: #2f855a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #38a169, #68d391);
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .hero a {
+      background: white;
+      color: #2f855a;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .intro {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .intro h2 {
+      color: #2f855a;
+    }
+    .quizzes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 40px 0;
+    }
+    .quiz-card {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 20px;
+      width: 280px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .quiz-card h3 {
+      margin-top: 0;
+      color: #2f855a;
+    }
+    footer {
+      text-align: center;
+      background: #2f855a;
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AabisAcademy</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#quizzes">Quizzes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section class="hero">
+    <h1>Welcome to AabisAcademy</h1>
+    <p>Your hub for Islamic learning and quiz competitions</p>
+    <a href="#quizzes">Explore Quizzes</a>
+  </section>  <section class="intro">
+    <h2>Meet the Founder</h2>
+    <p>I am <strong>Aabis Kungle</strong>, the youngest school chairman of three schools, joint secretary of one educational society, and president of another. I created AabisAcademy to spread Islamic knowledge and make learning fun through engaging quizzes and resources.</p>
+  </section>  <section id="quizzes" class="quizzes">
+    <div class="quiz-card">
+      <h3>Surah Al-Fatiha Quiz</h3>
+      <p>Test your knowledge of Surah Al-Fatiha.</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgHO65cy5Ek0mAw6lQMeXZoGQqh9qRd_L_RyjPagwLzqIbw/viewform?usp=header" target="_blank">Take Quiz</a>
+    </div>
+    <div class="quiz-card">
+      <h3>Surah Al-Ikhlas Quiz</h3>
+      <p>Coming Soon</p>
+      <a href="#" disabled>Coming Soon</a>
+    </div>
+  </section>  <footer id="contact">
+    <p>Contact: aabisacademy@gmail.com | &copy; 2025 AabisAcademy</p>
+  </footer>
+</body>
+</html>
